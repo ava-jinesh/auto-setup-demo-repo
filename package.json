@@ -1,0 +1,16 @@
+{
+  "name": "app-web-demo1",
+  "version": "1.0.0",
+  "description": "Hello World web app deployed to Azure App Service",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,3 @@
+# Never commit GitHub App private keys.
+*.pem
+*.key
